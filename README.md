@@ -1,8 +1,8 @@
 # Implemented features: 
-This was created on top of some already provided code, the challenge was to work in a pair and create more advanced visualisations (some from scratch some improved upon older ones). The below is what we came up with. If you go to https://simasces.github.io/VisualisationYear1/ you can see the visualisation.
+This was created on top of some already provided code, the challenge was to work in a pair and create more advanced visualisations (some from scratch some improved upon older ones). The below is what we came up with. If you go to https://simasces.github.io/VisualisationYear1/ you can see the visualisation. By Simas Cesnauskas(https://github.com/SimasCes) and Daniel Cosby(https://github.com/daaanosaur).
 
 # Tech Diversity: Race 
-
+<img src="visImages/race">
 The pie chart helper function was changed to make a donut-chart by drawing another ellipse on-top of the pie-chart. The arc method was used at first, but this had errors (such as the colour below would clip through), so an ellipse was used instead. Text is displayed in the centre, initially directions to move the mouse over the donut-chart, and depending on the colour it is on, the percentage of the segment will be displayed in the middle. Using RGB colour values, the programme checks if the colour the mouse is on is the same as the colours in an array, then if it is true for a value (checks with an array), it then displays the percentage for the corresponding data to 2d.p. There is also an if statement, to make sure you cannot trigger this colour check outside of the donut chart parameters.
 
 # Tech Diversity: Gender
