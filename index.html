@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Case study 2: Data visualisation</title>
+
+    <!-- Libraries -->
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+    <link rel="stylesheet"
+          href="lib/jquery-ui-themes-1.12.1/themes/ui-lightness/jquery-ui.min.css">
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="lib/mappa.js"></script>
+    <script src="lib/leaflet.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="leaflet.css">
+
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!-- Main visualisation files -->
+    <script src="tech-diversity-race.js"></script>
+    <script src="tech-diversity-gender.js"></script>
+    <script src="pay-gap-by-job-2017.js"></script>
+    <script src="pay-gap-1997-2017.js"></script>
+    <script src="climate-change.js"></script>
+    <script src="radar-chart.js"></script>
+    <script src="internet-usage.js"></script>
+    <script src="immunization.js"></script>
+    <script src="map-mappa.js"></script>
+    <script src="map-leaflet.js"></script>
+
+    <!-- Add extra scripts below -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="pie-chart.js"></script>
+    <script src="circlemaker.js"></script>
+    <script src="menu.js"></script>
+    <script src="modal.js"></script>
+
+  </head>
+  <body>
+    <div id="app" class="container">
+      <ul id="visuals-menu"></ul>
+    </div>
+
+    <!-- Modal code from W3 Schools https://www.w3schools.com/howto/howto_css_modals.asp -->    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="jobs"></h2>
+        <p class="propFemale"></p>
+        <p class="payGap"></p>
+        <p class="numJobs"></p>
+      </div>
+
+    </div> 
+    <!-- End modal code -->
+    
+  </body>
+</html>
